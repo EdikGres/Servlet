@@ -62,7 +62,9 @@
                     <url>http://46.174.50.40:8080/manager/text</url>
                     <server>mytomcat</server>
                     <path>/test-servlet-1.0-SNAPSHOT</path>
+                    <!--suppress UnresolvedMavenProperty -->
                     <username>${env.LOGIN}</username>
+                    <!--suppress UnresolvedMavenProperty -->
                     <password>${env.PASSWORD}</password>
                 </configuration>
             </plugin>
